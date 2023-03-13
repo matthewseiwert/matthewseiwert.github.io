@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    cursor: none;
+}
+
+nav {
+    padding: 2em 4em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+}
+
+h2 {
+    font-size: 250px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 66.6%;
+}
+
+.main {
+    padding: 2em 4em;
+}
+
+.slogan {
+    padding: 1em 4em;
+}
+
+.right {
+    background: url(./images/fabian-gieske-yobw-nedZ2s-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 45%;
+}
+
+
+.cursor {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+}
+
+.paw {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.link-grow {
+    background: white;
+    transform: scale(2);
+}
+
+
+.linkChange {
+    background: #C55176;
+}
+
+.linkColor {
+    color: #FF715D;
+}
