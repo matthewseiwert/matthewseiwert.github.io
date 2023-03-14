@@ -10,3 +10,9 @@ body {
 img {
     width: 32px;
 }
+
+.toucan {
+    position: absolute;
+    top: 40px;
+    right: auto;
+}
