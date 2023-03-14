@@ -14,6 +14,6 @@ img {
 .toucan {
     position: fixed;
     top: 40px;
-    right: auto;
-    width: 96px;
+    right: 30%;
+    width: 64px;
 }
