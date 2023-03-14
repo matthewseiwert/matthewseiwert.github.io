@@ -12,7 +12,7 @@ img {
 }
 
 .toucan {
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: auto;
     width: 96px;
