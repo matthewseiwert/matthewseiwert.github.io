@@ -12,10 +12,13 @@ a {
 }
 
 img {
+    width: 32px;
+}
+
+.icons {
     position: fixed;
     top: 40px;
     right: 30%;
-    width: 32px;
 }
 
 .toucan {
