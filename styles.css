@@ -12,6 +12,7 @@ a {
 }
 
 img {
+    display: block;
     width: 32px;
 }
 
