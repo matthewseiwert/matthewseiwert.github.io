@@ -8,12 +8,12 @@ body {
 }
 
 img {
+    position: fixed;
+    top: 40px;
+    right: 30%;
     width: 32px;
 }
 
 .toucan {
-    position: fixed;
-    top: 40px;
-    right: 30%;
     width: 64px;
 }
