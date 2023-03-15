@@ -19,3 +19,8 @@ img {
     position: absolute;
     right: 10px;
 }
+
+.callToAction {
+    rotate: 90deg;
+    weight: bold;
+}
