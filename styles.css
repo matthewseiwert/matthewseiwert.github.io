@@ -12,13 +12,12 @@ a {
 }
 
 img {
-    display: block;
     width: 2rem;
 }
 
 .icons {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    right: 0px;
 }
 
 .toucan {
