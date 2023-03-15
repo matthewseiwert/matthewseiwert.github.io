@@ -17,11 +17,11 @@ img {
 }
 
 .icons {
-    position: fixed;
+    padding: 0 5px;
+    position: sticky;
     top: 40px;
-    right: 30%;
 }
 
 .toucan {
-    width: 64px;
+    width: 32px;
 }
