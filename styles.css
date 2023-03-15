@@ -8,8 +8,15 @@ body {
 }
 
 img {
-    width: 2em;
+    width: 24px;
 }
+
+@media (max-width: 768px) {
+  img {
+      width: 72px;
+  }
+}
+
 
 footer {
     display: flex;
