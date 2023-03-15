@@ -13,14 +13,14 @@ a {
 
 img {
     display: block;
-    width: 32px;
+    width: 2rem;
 }
 
 .icons {
-    position: sticky;
+    position: fixed;
     bottom: 0px;
 }
 
 .toucan {
-    width: 32px;
+    width: 2rem;
 }
